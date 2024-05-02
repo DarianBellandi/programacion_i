@@ -9,3 +9,4 @@ def solitando_numero_entero() -> int:
     return numero
 
 numero_entero = solitando_numero_entero()
+print(numero_entero)

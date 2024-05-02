@@ -7,4 +7,4 @@ def solicitando_numero_flotante()-> float:
     numero = float(input("Ingrese numero flotante: "))
     return numero
 
-numero_flotante = solicitando_numero_flotante()
+#print(solicitando_numero_flotante())

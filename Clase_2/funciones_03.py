@@ -7,4 +7,4 @@ def solicitando_string()->str:
     cadena_texto = input("Ingrese texto: ")
     return cadena_texto
 
-cadena_texto = solicitando_string()
+#print(solicitando_string())
