@@ -1,7 +1,11 @@
 from os import system
+from sys import path
+
+path.append("Clase_3/Package_input")
+from Input import *
+
 from Package_Arrays.Array_Generales import *
 from Package_Arrays.Especificas import *
-from Package_Input.Input import *
 
 '''
 Menú - Arrays -  Funciones
@@ -38,7 +42,6 @@ Utilizar las funciones input del paquete Package_Input.
 
 Consejo: Primero realizar el desarrollo de las funciones y probarlas. Luego, armar 
 los módulos y paquetes.
-
 '''
     
 def pausar():

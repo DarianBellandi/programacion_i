@@ -19,6 +19,6 @@ def listando_numeros_pares(lista:int):
 
 def listando_numero_pos_impar(lista:list):
     for i in range(len(lista)):
-        if i % 2 != 0:
+        if i % 2 == 0:
             print(f"{i+1} -> {lista[i]}")
     return None

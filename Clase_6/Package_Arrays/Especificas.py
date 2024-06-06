@@ -35,7 +35,7 @@ def mostar_suma_pares(lista:list)->None:
         if lista[i] % 2 == 0:
             suma += lista[i]
         
-    print(suma)
+    print(f"La suma de todos los números pares es: {suma}")
     return None
 
 
